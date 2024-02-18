@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mark Distribution</title>
+	<link rel="stylesheet" type="text/css" href="marks_distribution_css.css">
+</head>
+<body>
+	<img src="./4.jpg" alt="error" class="theme">
+    <nav>
+		<ul>
+			<li><a href="marks_distribution.html">Marks Distribution</a></li>
+			<li><a href="attendance.html">Manage Attendance</a></li>
+			<li><a href="evaluation.html">Manage Evaluations</a></li>
+			<li><a href="report_grade.html">Generate Grades and Reports</a></li>
+			<li><a href="2ndpage.html">HOME</a></li>
+			
+		</ul>
+	</nav>
+
+
+	<div class="container">
+		<h2>Mark Distribution</h2>
+		<h3>Range: 0 to 100</h3>
+		<form>
+			<select class="form-select container-option" aria-label="Default select example">
+				<option selected>(Evaluations Type)</option>
+				<option value="1">assignment</option>
+				<option value="2">quiz</option>
+				<option value="3">exam</option>
+			  </select>
+	
+			<label for="subject">Subject:</label>
+			<input type="text" id="subject" name="subject" placeholder="Enter subject name">
+			<label for="assignment">Assignments (%):</label>
+			<input type="number" id="assignment" name="assignment" placeholder="Enter weightage of assignments">
+			<label for="quiz">Quizzes (%):</label>
+			<input type="number" id="quiz" name="quiz" placeholder="Enter weightage of quizzes">
+			<label for="sessional">Sessional (%):</label>
+			<input type="number" id="sessional" name="sessional" placeholder="Enter weightage of sessional exams">
+			<label for="final">Final Exam (%):</label>
+			<input type="number" id="final" name="final" placeholder="Enter weightage of final exam">
+			<input type="submit" value="Set Marks Distribution">
+		</form>
+	</div>
+
+
+
+
+</body>
+</html>
